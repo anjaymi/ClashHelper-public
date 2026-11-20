@@ -1,0 +1,14 @@
+# 高级配置示例。复制到 GitHub Secret SITES_YAML 后填写真实地址。
+# 日常使用只需设置 SUBSCRIPTIONS：每行一个 Clash YAML 订阅链接。
+- name: 订阅1
+  group: PROXY
+  url: https://example.com/clash?token=替换成你的订阅
+  exclusion: [官网, 剩余流量, 到期时间]
+  inclusion: []
+  dedup: false
+- name: 订阅2
+  group: PROXY
+  url: https://example.org/clash?token=替换成你的订阅
+  exclusion: [官网, 剩余流量, 到期时间]
+  inclusion: []
+  dedup: false
